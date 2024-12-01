@@ -82,11 +82,19 @@
 
 <!-- Add this CSS to your style sheet -->
 <style>
+    /* Center the whole page */
     body {
+        display: flex;
+        justify-content: center;  /* Center horizontally */
+        align-items: center;      /* Center vertically */
+        height: 100vh;            /* Full viewport height */
+        margin: 0;
         background-color: #1a1a1a; /* Dark background color for the whole page */
-        color: #fff; /* Light text color for contrast */
+        color: #fff;               /* Light text color for contrast */
+        font-family: Arial, sans-serif;
     }
 
+    /* LinkedIn Button Style */
     .linkedin-button {
         display: inline-flex;
         align-items: center;
@@ -97,12 +105,12 @@
         padding: 12px 24px;
         border: 2px solid #0077b5; /* LinkedIn blue border */
         border-radius: 50px; /* Rounded corners for a modern look */
-        font-family: 'Arial', sans-serif;
         text-decoration: none;
         transition: all 0.3s ease;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     }
 
+    /* Hover effect */
     .linkedin-button:hover {
         background-color: #0077b5; /* LinkedIn blue when hovered */
         color: #fff;
@@ -110,12 +118,14 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
     }
 
+    /* LinkedIn Icon Style */
     .linkedin-icon {
         width: 26px;
         height: 26px;
         margin-right: 12px;
     }
 
+    /* Button Text Styling */
     .button-text {
         font-weight: 600;
         letter-spacing: 1px;
@@ -130,6 +140,7 @@
         </svg>
     `;
 </script>
+
 
 <!-- LinkedIn Logo Inline SVG end -->
 
