@@ -74,6 +74,65 @@
     <br>
     <br>
 
+   <!-- LinkedIn Follow Button -->
+<a href="https://www.linkedin.com/in/sudhanshuranjan-sy/" target="_blank" class="linkedin-button">
+    <span class="linkedin-icon"></span>
+    <span class="button-text">Follow on LinkedIn</span>
+</a>
+
+<!-- Add this CSS to your style sheet -->
+<style>
+    body {
+        background-color: #1a1a1a; /* Dark background color for the whole page */
+        color: #fff; /* Light text color for contrast */
+    }
+
+    .linkedin-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1a1a1a; /* Dark button to blend with background */
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 24px;
+        border: 2px solid #0077b5; /* LinkedIn blue border */
+        border-radius: 50px; /* Rounded corners for a modern look */
+        font-family: 'Arial', sans-serif;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .linkedin-button:hover {
+        background-color: #0077b5; /* LinkedIn blue when hovered */
+        color: #fff;
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    }
+
+    .linkedin-icon {
+        width: 26px;
+        height: 26px;
+        margin-right: 12px;
+    }
+
+    .button-text {
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+</style>
+
+<!-- LinkedIn Logo Inline SVG -->
+<script>
+    document.querySelector('.linkedin-icon').innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 0H4C2.9 0 2 .9 2 2v20c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM9 19H6v-8h3v8zm-1.5-9c-1.1 0-1.5-.9-1.5-1.5S6.4 7 7.5 7c.9 0 1.5.9 1.5 1.5S7.9 10 7.5 10zm11.5 9h-3v-4.7c0-1.1-.9-1.8-1.7-1.8-1.1 0-2 .9-2 1.8v4.7h-3v-8h3v1.1c.5-.8 1.5-1.3 2.6-1.3 1.9 0 3.4 1.3 3.4 3.2V19z"/>
+        </svg>
+    `;
+</script>
+
+<!-- LinkedIn Logo Inline SVG end -->
+
      <h4 style="text-align: center; color: red;"><a href="https://docs.google.com/forms/d/e/1FAIpQLScx9Z_X8erTFWPK_Po6RURhS2qUYZj67CbTeyweUnymw3qXWA/viewform">Contact Us </a></h4>
         <br>
         <h4 style="text-align: center; color: blue;"><a target="_blank"
@@ -123,7 +182,7 @@ $(function () {
             href="index.html">LearnLink</a>
     </a>
     <p class="text-sm text-gray-600 sm:ml-6 sm:mt-0 mt-4">© All Right Reserved, Developed by -
-        <a href="#" target="_blank"
+        <a href="https://www.linkedin.com/in/sudhanshuranjan-sy/" target="_blank"
             class="text-gray-500 ml-1 text-decoration-none hover:text-gray-600 target=" _blank"
             rel="#">Sudhanshu Ranjan</a>
         | <a href="#" target="_blank" class="text-gray-500 ml-1 text-decoration-none hover:text-gray-700"
